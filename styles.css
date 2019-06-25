@@ -1,0 +1,26 @@
+body {
+    background: #434343;
+    color: #fff;
+    font-family: monospace;
+}
+
+.container {
+    text-align: center;
+    padding-top: 100px;
+}
+
+hr {
+    color: chartreuse;
+}
+
+.quote-area {
+    border: 2px solid greenyellow;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    margin-top: 15px;
+    width: 800px;
+    height: 100px;
+    align-content: center;
+}
