@@ -31,7 +31,7 @@ $(document).ready(function () {
         getNewQuote();
     });
 
-    $('.share-quote').on('click', function(event) {
+    $('.share-quote').onClick(function(event) {
         event.preventDefault();
         window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(quote));
     });
