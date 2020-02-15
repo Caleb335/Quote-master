@@ -5,10 +5,12 @@
     font-family: 'Ubuntu Mono', monospace;
 }
 body {
-    background-color: #40407a;
+    background-image: url(../images/spiral.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 main {
-    min-height: 60vh;
+    min-height: 83vh;
 }
 /* utilities starts here */
 .mt {
