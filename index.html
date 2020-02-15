@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quote master</title>
+    <link rel="stylesheet" href="./src/assets/styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d9e33f69d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <p class="lg-text app-title text-white mt">quote master 😏 </p>
+    </header>
+    <main class="flex-container mt-2">
+        <div class="quote-box ml-1">
+            <p class="text-white flex-text" id="quote_area">
+
+            </p>
+        </div>
+        <div class="buttons flex">
+            <button class="btn btn-primary text-white sm-text mt-2" id="get" onclick="getQuote()"><i class="fas fa-quote-left"></i> Get quote</button>
+            <button class="btn btn-secondary text-white sm-text mt-2 ml" id="share"><i class="fas fa-share"></i> Share quote</button>
+        </div>
+    </main>
+    <footer class="flex mt-2">
+        <p class="text-white">created with <i class="fas fa-heartbeat"></i> and <i class="fas fa-laptop-code"></i> by <a href="https://twitter.com/caleboloj">Caleb Olojo</a></p>
+    </footer>
+</body>
+</html>
